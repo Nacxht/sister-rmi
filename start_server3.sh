@@ -9,7 +9,7 @@ cd "$(dirname "$0")"
 # Set RMI properties
 export RMI_SERVER_HOST="0.0.0.0"
 export RMI_SERVER_PORT="5003"
-export SUBTRACT_SERVER_URL="192.168.161.16:5002"
+export SUBTRACT_SERVER_URL="192.168.161.149:5002"
 
 # Start the server
 java -cp node_3_multiply/build/classes/java/main:common/build/classes/java/main \
