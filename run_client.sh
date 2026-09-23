@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 ./compile.sh
 
 # Set client properties
-export SERVER_URL="localhost:5001"
+export SERVER_URL="192.168.161.137:5001"
 
 # Run the client
 java -cp client/build/classes/java/main:common/build/classes/java/main \

@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 ./compile.sh
 
 # Set RMI properties
-export RMI_SERVER_HOST="0.0.0.0"
+export RMI_SERVER_HOST="192.168.161.137"
 export RMI_SERVER_PORT="5001"
 export MULTIPLY_SERVER_URL="192.168.161.16:5003"
 

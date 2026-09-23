@@ -7,7 +7,7 @@ REM Build the project (using manual compilation)
 call compile.bat
 
 REM Set RMI properties
-set RMI_SERVER_HOST=0.0.0.0
+set RMI_SERVER_HOST=192.168.161.137
 set RMI_SERVER_PORT=5001
 set MULTIPLY_SERVER_URL=192.168.161.16:5003
 

@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 ./compile.sh
 
 # Set RMI properties
-export RMI_SERVER_HOST="0.0.0.0"
+export RMI_SERVER_HOST="192.168.161.238"
 export RMI_SERVER_PORT="5004"
 
 # Start the server
