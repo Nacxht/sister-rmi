@@ -9,7 +9,7 @@ call compile.bat
 REM Set RMI properties
 set RMI_SERVER_HOST=0.0.0.0
 set RMI_SERVER_PORT=5002
-set DIVIDE_SERVER_URL=localhost:5004
+set DIVIDE_SERVER_URL=192.168.161.149:5004
 
 REM Start the server
 java -cp node_2_subtract\build\classes\java\main;common\build\classes\java\main ^

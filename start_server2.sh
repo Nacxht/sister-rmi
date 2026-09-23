@@ -8,8 +8,8 @@ cd "$(dirname "$0")"
 
 # Set RMI properties
 export RMI_SERVER_HOST="0.0.0.0"
-export RMI_SERVER_PORT="5002"
-export DIVIDE_SERVER_URL="localhost:5004"
+export RMI_SERVER_PORT="5001"
+export MULTIPLY_SERVER_URL="192.168.161.149:5003"
 
 # Start the server
 java -cp node_2_subtract/build/classes/java/main:common/build/classes/java/main \
